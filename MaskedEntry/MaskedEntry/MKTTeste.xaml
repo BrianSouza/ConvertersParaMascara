@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MaskedEntry;assembly=MaskedEntry"
+             x:Class="MaskedEntry.MKTTeste">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <local:MaskedPhone x:Key="masked"></local:MaskedPhone>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <StackLayout>
+    <Label Text="Teste MAsk Phone" VerticalOptions="Center" HorizontalOptions="Center" />
+    <Entry  x:Name="txtTeste" Text="{Binding Telefone, Mode = OneWay, Converter ={StaticResource masked}}" Unfocused="TxtTeste_Unfocused"/>
+  <Entry  />
+  </StackLayout>
+</ContentPage>
