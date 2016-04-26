@@ -8,5 +8,5 @@ C:\Users\brian.souza\Documents\Visual Studio 2015\Projects\MaskedEntry\MaskedEnt
 C:\Users\brian.souza\Documents\Visual Studio 2015\Projects\MaskedEntry\MaskedEntry\MaskedEntry\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\brian.souza\Documents\Visual Studio 2015\Projects\MaskedEntry\MaskedEntry\MaskedEntry\obj\Debug\MaskedEntry.dll
 C:\Users\brian.souza\Documents\Visual Studio 2015\Projects\MaskedEntry\MaskedEntry\MaskedEntry\obj\Debug\MaskedEntry.pdb
-C:\Users\brian.souza\documents\visual studio 2015\Projects\MaskedEntry\MaskedEntry\MaskedEntry\obj\Debug\MaskedEntry.dll.mdb
-C:\Users\brian.souza\documents\visual studio 2015\Projects\MaskedEntry\MaskedEntry\MaskedEntry\bin\Debug\MaskedEntry.dll.mdb
+C:\Users\brian.souza\Documents\Visual Studio 2015\Projects\MaskedEntry\MaskedEntry\MaskedEntry\obj\Debug\MaskedEntry.dll.mdb
+C:\Users\brian.souza\Documents\Visual Studio 2015\Projects\MaskedEntry\MaskedEntry\MaskedEntry\bin\Debug\MaskedEntry.dll.mdb

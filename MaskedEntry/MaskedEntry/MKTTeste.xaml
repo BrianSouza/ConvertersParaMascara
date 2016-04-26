@@ -5,12 +5,12 @@
              x:Class="MaskedEntry.MKTTeste">
   <ContentPage.Resources>
     <ResourceDictionary>
-      <local:MaskedPhone x:Key="masked"></local:MaskedPhone>
+      <local:MaskedPhone x:Key="MaskedPhone"></local:MaskedPhone>
     </ResourceDictionary>
   </ContentPage.Resources>
   <StackLayout>
     <Label Text="Teste MAsk Phone" VerticalOptions="Center" HorizontalOptions="Center" />
-    <Entry  x:Name="txtTeste" Text="{Binding Telefone, Mode = OneWay, Converter ={StaticResource masked}}" Unfocused="TxtTeste_Unfocused"/>
+    <Entry  x:Name="txtTeste" Text="{Binding Telefone, Converter ={StaticResource MaskedPhone}}" Unfocused="TxtTeste_Unfocused" Keyboard="Numeric"/>
   <Entry  />
   </StackLayout>
 </ContentPage>

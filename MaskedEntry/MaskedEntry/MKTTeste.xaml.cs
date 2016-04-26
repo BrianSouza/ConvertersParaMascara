@@ -15,7 +15,7 @@ namespace MaskedEntry
         {
             InitializeComponent();
             this.BindingContext = this.mkPhone;
-            this.txtTeste.Unfocused += TxtTeste_Unfocused;
+            //this.txtTeste.Unfocused += TxtTeste_Unfocused;
         }
 
         private void TxtTeste_Unfocused(object sender, FocusEventArgs e)
